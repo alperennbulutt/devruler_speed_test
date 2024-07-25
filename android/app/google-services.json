@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827836104050",
+    "project_id": "speed-test-682e8",
+    "storage_bucket": "speed-test-682e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827836104050:android:ba7f3f717e5aecd69df1eb",
+        "android_client_info": {
+          "package_name": "com.devruler.speedtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHTySGwJfYZO6DxajW82RipfWqiaT3mLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
