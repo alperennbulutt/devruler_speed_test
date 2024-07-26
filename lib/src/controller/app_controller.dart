@@ -4,6 +4,9 @@ class AppController extends GetxController {
   RxBool isLoading = false.obs;
   RxBool error = false.obs;
 
+  final RxBool isTapped = false.obs;
+  final RxBool isExpanded = false.obs;
+
   @override
   void onInit() {
     super.onInit();

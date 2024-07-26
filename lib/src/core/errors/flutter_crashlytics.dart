@@ -7,9 +7,10 @@ import 'package:flutter/material.dart';
 
 class FlutterCrashlytics {
   handleError() {
-    if (kDebugMode) {
+    if (!kDebugMode) {
       FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(false);
     } else {
+      log('crashlytics enabled');
       const fatalError = true;
       // Non-async exceptions
       FlutterError.onError = (errorDetails) {

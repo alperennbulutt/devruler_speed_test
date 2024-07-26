@@ -37,19 +37,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBQktEaTufKvZU2DZbHD6DXe1sMyMYME7M',
-    appId: '1:838404171581:android:fc4829240f554efd8b0754',
+    apiKey: 'AIzaSyAHTySGwJfYZO6DxajW82RipfWqiaT3mLE',
+    appId: '1:827836104050:android:ba7f3f717e5aecd69df1eb',
     messagingSenderId: '838404171581',
-    projectId: 'ayir-ca20d',
-    storageBucket: 'ayir-ca20d.appspot.com',
+    projectId: 'speed-test-682e8',
+    storageBucket: 'speed-test-682e8.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAD9mde0UOqDVk3ntqu8lUlw-H4s_xAjFQ',
-    appId: '1:682687203324:ios:59b58c26ef532c89459479',
-    messagingSenderId: '682687203324',
-    projectId: 'dustercih',
-    storageBucket: 'dustercih.appspot.com',
-    iosBundleId: 'com.tusdata.tercihrobotu.dustercih',
+    apiKey: 'AIzaSyBRzdowJR7ASKuPl9Nfz6z5q2z_KldAGmk',
+    appId: '1:827836104050:ios:43b1a14c50615e609df1eb',
+    messagingSenderId: '827836104050',
+    projectId: 'speed-test-682e8',
+    storageBucket: 'speed-test-682e8.appspot.com',
+    iosBundleId: 'com.devruler.speedtest',
   );
 }
